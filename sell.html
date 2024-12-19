@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Marketplace</title>
+    <link rel="stylesheet" href="./styles/sell.css">
+    <link rel="stylesheet" href="./styles/buy.css">
+</head>
+<body>
+    <div class="sell">
+        <ul class="ul">
+            <li>
+               <a href="index.html" class="header-link">
+          <img class="buy-mobile-logo"
+            src="./images/buy logo.png">
+        </a>
+            </li>
+            <li>
+               <a href="Orders.html" class="header-link">
+          view <br> Orders
+             </a>
+            </li>
+            
+        </ul>
+    </div>
+    <main>
+        <section class="add-product">
+            <h2>Add Product</h2>
+            <form id="add-product-form">
+       <label for="product-image">Product Image URL:</label>
+   <input type="url" id="product-image" required>     
+                
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" required><br>
+                <label for="product-description">Product Description:</label>
+                <textarea id="product-description" required></textarea><br>
+                <label for="product-price">Product Price:</label>
+                <input type="number" id="product-price" required><br>
+                
+                <button type="submit" class="Add button">Add Product</button>
+            </form>
+        </section>
+        <section class= "product-listing">
+        <div class="main">
+      <div class="products-grid">
+      <!-- Products will be listed here -->
+      </div>
+    </div>
+    </section>
+      </main>
+    <script src="./js/sell.js"></script>
+</body>
+</html>

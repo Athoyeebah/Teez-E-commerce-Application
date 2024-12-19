@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+input[type="text"], input[type="password"], input[type="tel"], select {
+    width: 70vw;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #636363;
+    border-radius: 5px;   
+     }
+    
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+select:focus {
+border-color: blue;
+outline: none;
+}
+
+button[type="submit"] {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    background-color: blue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: lightblue;
+}
