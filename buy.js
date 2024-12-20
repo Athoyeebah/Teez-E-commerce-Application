@@ -51,7 +51,7 @@ function renderProductList() {
     products = products.concat(addedProducts);
   }
   
-  const excludedProductNames = ['Wristwatch', 'Mouse', 'Bed', 'Throw pillow bed', 'Woman', 'Telivision' ]; 
+  const excludedProductNames = ['Wristwatch', 'Mouse', 'Bed', 'Throw pillow bed', 'Woman', 'Television' ]; 
   const productListHtml = products.filter((product) => !excludedProductNames.includes(product.name)).map((product) => {
     return `
   <div class="product-container">
