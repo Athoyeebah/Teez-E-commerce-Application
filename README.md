@@ -1,1 +1,1 @@
-# decentralized-e-commerce-website
+# Teez-E-commerce-Application
